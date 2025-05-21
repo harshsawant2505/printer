@@ -10,6 +10,7 @@
     "start": "concurrently \"node index.js\" \"cloudflared tunnel --url http://localhost:4000\""
   },
   "dependencies": {
+    "cloudflared": "^0.7.0",
     "concurrently": "^9.1.2",
     "express": "^5.1.0",
     "qrcode-terminal": "^0.12.0"
